@@ -81,11 +81,7 @@ export default class ChatContent extends Component {
             type: "",
             msg: this.state.msg,
             image:
-<<<<<<< HEAD
-              Fiazan4,
-=======
             Fiazan4,
->>>>>>> 0b07a4027f344a1d788111b650649aa2918aacc5
           });
           this.setState({ chat: [...this.chatItms] });
           this.scrollToBottom();

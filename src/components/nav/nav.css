@@ -8,6 +8,9 @@
 }
 .nav img {
   display: block;
-  max-width: 100%;
+  max-width: 180%;
   cursor: pointer;
+  padding-left: 5px;
+  
+  
 }

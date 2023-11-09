@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.logo
+{
+    margin-bottom: 15rem;
+    background-color:rgb(243, 170, 182);
+    border-radius: 1rem;
+    border-width: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.logo:hover
+{
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 1rem;
+    border-width: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.loginbutton
+{
+    border-radius: 1rem;
+
+}
+.loginbutton:hover
+{
+
+  cursor: pointer;
+  background-color: brown !important;
+  border-radius: 1rem;
+  border-width: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.signupbutton
+{
+    border-radius: 1rem;
+
+}
+.signupbutton:hover
+{
+
+  cursor: pointer;
+  background-color: brown !important;
+  border-radius: 1rem;
+  border-width: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.Invitebutton
+{
+    border-radius: 1rem;
+
+}
+.Invitebutton:hover
+{
+
+  cursor: pointer;
+  background-color: brown !important;
+  border-radius: 1rem;
+  border-width: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.Searchbar
+{
+    padding-left: 15rem;
+    width: 15rem;
+    box-sizing: border-box;
+}
+.message-icon 
+{
+    color: #007bff; 
+    font-size: 20px; 
+}
+.bell-icon
+{
+    color: #007bff; 
+    font-size: 20px; 
+    
+}

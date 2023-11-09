@@ -1,87 +1,100 @@
 import React, { Component } from "react";
 import "./chatList.css";
 import ChatListItems from "./ChatListItems";
+import Aftab from "../../images/aftab.jpg";
+import Faizan from "../../images/faizan.jpeg";
+import Faizan1 from "../../images/faizan1.jpeg";
+import Faizan2 from "../../images/faizan2.jpeg";
 
 export default class ChatList extends Component {
   allChatUsers = [
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+      Aftab,
       id: 1,
-      name: "Tim Hover",
+      name: "Aftab ahmed",
       active: true,
       isOnline: true,
     },
     {
       image:
-        "https://pbs.twimg.com/profile_images/1055263632861343745/vIqzOHXj.jpg",
+        Faizan,
       id: 2,
-      name: "Ayub Rossi",
+      name: "Faizan Hameed",
       active: false,
       isOnline: false,
     },
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQEZrATmgHOi5ls0YCCQBTkocia_atSw0X-Q&usqp=CAU",
+        Faizan1,
       id: 3,
-      name: "Hamaad Dejesus",
+      name: "Faizan Hameed Hameed",
       active: false,
       isOnline: false,
     },
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ6tM7Nj72bWjr_8IQ37Apr2lJup_pxX_uZA&usqp=CAU",
+      Faizan2,
+      id: 3,
+      name: "Faizan Hameed Hameed",
+      active: false,
+      isOnline: true,
+    },
+    {
+      image:
+      Aftab,
       id: 4,
-      name: "Eleni Hobbs",
-      active: false,
+      name: "Aftab ahmed",
+      active: true,
       isOnline: true,
     },
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJo1MiPQp3IIdp54vvRDXlhbqlhXW9v1v6kw&usqp=CAU",
+      Aftab,
       id: 5,
-      name: "Elsa Black",
-      active: false,
-      isOnline: false,
+      name: "Aftab ahmed",
+      active: true,
+      isOnline: true,
     },
     {
       image:
-        "https://huber.ghostpool.com/wp-content/uploads/avatars/3/596dfc2058143-bpfull.png",
+      Aftab,
       id: 6,
-      name: "Kayley Mellor",
-      active: false,
+      name: "Aftab ahmed",
+      active: true,
       isOnline: true,
     },
     {
       image:
-        "https://www.paintingcontest.org/components/com_djclassifieds/assets/images/default_profile.png",
+      Faizan1,
       id: 7,
-      name: "Hasan Mcculloch",
-      active: false,
-      isOnline: true,
-    },
-    {
-      image:
-        "https://auraqatar.com/projects/Anakalabel/media//vesbrand/designer4.jpg",
-      id: 8,
-      name: "Autumn Mckee",
+      name: "Faizan Hameed Hameed",
       active: false,
       isOnline: false,
     },
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSM6p4C6imkewkCDW-9QrpV-MMAhOC7GnJcIQ&usqp=CAU",
-      id: 9,
-      name: "Allen Woodley",
-      active: false,
-      isOnline: true,
+      Faizan1,
+      id: 8,
+      name: "Faizan Hameed Hameed",
+      active: true,
+      isOnline: false,
     },
     {
-      image: "https://pbs.twimg.com/profile_images/770394499/female.png",
+      image:
+      Faizan,
+      id: 9,
+      name: "Faizan Hameed Hameed",
+      active: true,
+      isOnline: false,
+    },
+    {
+      image:
+      Faizan2,
       id: 10,
-      name: "Manpreet David",
+      name: "Faizan Hameed Hameed",
       active: false,
-      isOnline: true,
+      isOnline: false,
     },
   ];
   constructor(props) {

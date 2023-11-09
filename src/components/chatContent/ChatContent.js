@@ -3,6 +3,8 @@ import React, { Component, useState, createRef, useEffect } from "react";
 import "./chatContent.css";
 import Avatar from "../chatList/Avatar";
 import ChatItem from "./ChatItem";
+import Fiazan4 from "../../images/faizan1.jpeg"
+import Aftab3 from "../../images/aftab.jpg"
 
 export default class ChatContent extends Component {
   messagesEndRef = createRef(null);
@@ -10,51 +12,51 @@ export default class ChatContent extends Component {
     {
       key: 1,
       image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
-      type: "",
+      Fiazan4,
+      type: "me",
       msg: "Hi Tim, How are you?",
     },
     {
       key: 2,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+      Aftab3,
       type: "other",
-      msg: "I am fine.",
+      msg: "I am fine",
     },
     {
       key: 3,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+      Aftab3,
       type: "other",
       msg: "What about you?",
     },
-    {
-      key: 4,
-      image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
-      type: "",
-      msg: "Awesome these days.",
-    },
-    {
+     {
       key: 5,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+      Fiazan4,
+      type: "me",
+      msg: "Fine",
+    },
+    {
+      key: 3,
+      image:
+      Aftab3,
       type: "other",
       msg: "Finally. What's the plan?",
     },
     {
       key: 6,
       image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+      Fiazan4,
       type: "",
       msg: "what plan mate?",
     },
     {
       key: 7,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+      Aftab3,
       type: "other",
-      msg: "I'm taliking about the tutorial",
+      msg: "I'm talking about the FYP",
     },
   ];
 
@@ -101,9 +103,9 @@ export default class ChatContent extends Component {
             <div className="current-chatting-user">
               <Avatar
                 isOnline="active"
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
+                image= {Aftab3}
               />
-              <p>Tim Hover</p>
+              <p>Aftab Ahmed</p>
             </div>
           </div>
 

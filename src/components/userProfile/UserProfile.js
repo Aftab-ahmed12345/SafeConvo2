@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./userProfile.css";
-
+import Aftab3 from "../../images/aftab.jpg"
 export default class UserProfile extends Component {
   toggleInfo = (e) => {
     e.target.parentNode.classList.toggle("open");
@@ -10,10 +10,10 @@ export default class UserProfile extends Component {
       <div className="main__userprofile">
         <div className="profile__card user__profile__image">
           <div className="profile__image">
-          <img src={UserProfile}></img>
+          <img src={Aftab3}></img>
           </div>
-          <h4>Fernando Faucho</h4>
-          <p>CEO & Founder at Highly Inc</p>
+          <h4>Aftab Ahmed</h4>
+          <p>4th Year Student at Sukkur IBA University</p>
         </div>
         <div className="profile__card">
           <div className="card__header" onClick={this.toggleInfo}>
@@ -21,8 +21,7 @@ export default class UserProfile extends Component {
             <i className="fa fa-angle-down"></i>
           </div>
           <div className="card__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            ultrices urna a imperdiet egestas. Donec in magna quis ligula
+          Front-end Developer with React.js, HTML5, CSS3, JavaScript, Bootstrap5, other Skills Java, C++, Database Management System, SQL, Python, Machine Learning,
           </div>
         </div>
       </div>

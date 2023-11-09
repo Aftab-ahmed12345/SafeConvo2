@@ -81,7 +81,7 @@ export default class ChatContent extends Component {
             type: "",
             msg: this.state.msg,
             image:
-              "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+              Fiazan4,
           });
           this.setState({ chat: [...this.chatItms] });
           this.scrollToBottom();

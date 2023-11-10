@@ -13,7 +13,7 @@ export default class ChatContent extends Component {
       key: 1,
       image:
       Fiazan4,
-      type: "me",
+      type: "",
       msg: "Hi Tim, How are you?",
     },
     {
@@ -31,14 +31,14 @@ export default class ChatContent extends Component {
       msg: "What about you?",
     },
      {
-      key: 5,
+      key: 4,
       image:
       Fiazan4,
-      type: "me",
+      type: "",
       msg: "Fine",
     },
     {
-      key: 3,
+      key: 5,
       image:
       Aftab3,
       type: "other",
